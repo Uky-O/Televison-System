@@ -92,7 +92,7 @@ class Tv:
         return console.print(comandosP, Columns([canalP, volumeP]))
 
     def comandoi(self):
-        comando = input('Digite o comando([red bold]*[/]):').strip().title()
+        comando = input('Digite o comando(*):').strip().title()
         if comando == 'Aumentar':
             self.volup()
         elif comando == 'Diminuir':
